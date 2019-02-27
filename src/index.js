@@ -1,5 +1,6 @@
 module.exports = function warmup(temperature) {
-   temperature=parseFloat(temperature);
-   document.getElementById("outputFar).innerHTML = (temperature*9/5+32);
-  
+    var cTemp = parseFloat(temperature);
+	var cToFahr = cTemp * 9 / 5 + 32;
+    return cToFahr;
+ 
 };
