@@ -1,3 +1,5 @@
 module.exports = function warmup(temperature) {
-  // your implementation here
+   temperature=parseFloat(temperature);
+   document.getElementById("outputFar).innerHTML = (temperature*9/5+32);
+  
 };
